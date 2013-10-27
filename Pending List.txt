@@ -63,6 +63,11 @@ Food.txt
 Silk Shirt
 Slipper
 5 photo -- xerox Copy
+Coat Send Photo
+House Send Photo
+Advance -- 65000
+Rent 	-- 10000
+Bike Service
 
 
 
@@ -71,3 +76,13 @@ Slipper
 6 Times of monthly salary
 
 
+
+
+
+Packing Materials for new house
+
+>> Induction Stove
+>> Electric Cooker
+>> Mixie
+>> BedSheet
+>> 

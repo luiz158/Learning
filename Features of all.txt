@@ -1,0 +1,34 @@
+
+
+
+Unix 	-	Function
+------------------------
+sort
+uniq
+grep 
+find files 
+vi editor
+sed
+awk - 
+
+
+
+Excel
+-------
+pivot table
+Charting 
+
+
+Java
+————— 
+Apache POI - excel generation
+
+
+
+
+
+SQL
+————  
+
+
+

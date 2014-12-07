@@ -1,0 +1,22 @@
+
+
+Step by step ---  Eclipse Maven Tomcat deployment
+-------------------------------------------------
+
+1. Import Maven Project
+2. Right click the projct -->  Maven --> Run Configuration --> tomcat:run
+3. http://localhost:8080/<appname>
+ 
+ 
+
+========================================================
+ 
+ Eclipse -- Copy paste the class
+
+paste on src on eclipse project --> it will create package with class
+
+=========================================
+
+Eclipse Faster Coding
+
+1. Eclipse  --> preference  -> 

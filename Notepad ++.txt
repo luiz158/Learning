@@ -1,0 +1,82 @@
+
+
+Notepad Plugins
+
+Explorer
+Compare
+MultiClipBoard:
+Spell Check:
+JSON Viewer:
+
+========================================================
+
+Fast Development
+
+1. Column Selection
+2. Extended Search Mode
+3. Vertical Tab View - Comparing files
+4. Edit > Blank Operations > Trim Header and Trailing Space
+5. Edit > Blank Operations > Remove Unnecessary Blank and EOL 
+6. Delete Line Numbers or First word:
+
+TextFX > TextFX Tools > Delete Line Numbers or First word
+
+7. Add Line Numbers
+	Edit > Column Editor > Number to Insert > Set Initial Number and Increase By >OK
+8. Launch in Browser:
+You can test html file in browser by clicking RUN and select Launch in Browser.
+
+9. Align Lines
+TextFX > TextFX Edit > line up multiple lines by . . .
+
+10. Remove Blank Lines:
+TextFX > TextFX Edit > Delete Blank Lines
+TextFX > TextFX Edit > Delete Surplus Blank Lines
+
+11. Change Case:
+TextFX > TextFX Characters > select the case in which you want to convert.
+
+Remove all whitespace char’s
+
+Select all the text you want to remove the white space chars and click ‘Cntrl+H’, type space in the find field and leave the Replace field blank. Click ‘Replace all’ to remove all the spaces in the text file.
+
+Delete the first word/space/line no’s
+
+TextFX > TextFX Tools > Delete Line Numbers or First word
+Remove the trailing spaces
+
+TextFX > TextFX Edit > Trim Trailing Spaces
+
+Remove Blank Lines
+
+TextFX > TextFX Edit > Delete Blank Lines
+TextFX > TextFX Edit > Delete Surplus Blank Lines
+
+hange Case of Selected Text
+
+TextFX > TextFX Characters, the following options are available
+
+UPPER CASE
+lower case
+Proper Case
+Sentense case.
+iNVERT cASE
+
+Insert/Append Words in all the Lines
+
+Prefix/Suffix Present
+
+Consider an example that all the lines start with a prefix file_ (like file_my1.txt, file_my2.txt etc), the click ‘Cntrl+H’ and search for file_ and replace with new_prefix. This will result in a leading space character in all the lines, follow this section to remove that.
+
+Prefix/Suffix not Present
+
+Enter the prefix you want to add,say new_prefix, in the first row/column. Click ‘Cntrl’ and drag the small black rectangular box to the number of lines you want to add the prefix to (i.e if there are 10 lines drag till the 10th row). Copy the text from the text file and paste it in the second column. Now copy first and second rows and paste it back in the notepad++. If you find and space between the prefix and the previous text then follow this section to remove that.
+
+http://timsmarketingblog.com/notepad-plus-plus-tips-tricks-shortcuts/
+http://blog.drorhelper.com/2013/06/tip-using-notepad-to-read-log-files.html
+http://techblogs.xyz/category/tips-tricks/
+
+
+
+
+

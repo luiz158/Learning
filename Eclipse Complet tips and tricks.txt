@@ -19,4 +19,24 @@ paste on src on eclipse project --> it will create package with class
 
 Eclipse Faster Coding
 
-1. Eclipse  --> preference  -> 
+1. Eclipse  --> preference  -> Java -> Editor -> Templates
+2. NEW  button
+3. Fill the template information as given below and save it
+4. Use the template in any java source file using CTRL+SPACE
+5. Add more templates from below link to Eclipse. 
+6. ex. Logging template, JUnit Template
+
+http://howtodoinjava.com/2014/05/22/create-eclipse-templates-for-faster-java-coding/
+
+=============================================
+
+How to use Scrapbook pages in Eclipse?
+
+File -> New -> Other -> Java -> Java Run/Debug -> Scrapbook page.
+
+Right Click -->  Inspect, Display, Execute 
+
+===========================================================================
+
+
+

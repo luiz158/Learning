@@ -1,12 +1,284 @@
 
 
+KEY WORDS
+===========
+
+COPY CODE
+SCRAP Book
+External Tool Configuration
+
+
+Use External Tool Configuration > to run maven commands (no need m2e maven plugin)
+use mvn eclipse:eclipse to Fix Maven dependency error in eclipse
+MAVEN —>  local repository >>  setting.xml (maven installation)
+		/Users/saravanan/.m2/repository
+
+
+
+
+
+MAVEN
+=====
+
+
+mvn archetype:create -DgroupId=com.test -DartifactId=mytest    (create project using maven)
+
+
+How do I perform an archetype:create from Eclipse?
+=====================================================
+
+Eclipse's External Tools
+
+Name:			mvn archetype~create
+Location:		C:\dev\apache-maven-2.0.8\bin\mvn.bat
+Working Directory:	${workspace_loc}
+Arguments:		archetype:create -DgroupId=${string_prompt:groupId} -DartifactId=${string_prompt:artifactId}
+
+Eclipse > New → Project  > Java Project > 
+Create project from existing source  > Select mytest project.
+
+
+Set M2_REPO in JAVA > Build Path > class path variable > add M2_REPO pointing to maven repo.
+
+External Tool configuration > eclipse:eclipse 
+
+REFRESH
+
+##created a maven project 
+##imported it into Eclipse.
+##update my Maven projec
+
+
+How do I execute tests on my project?
+=======================================
+
+mvn test
+
+let's create an External Tool Configuration for "mvn test".
+
+
+
+How do I build my project?
+============================
+mvn package
+
+
+How do I install a project artifact in my local maven repository?
+========================================================================
+mvn install
+
+External Tool Configuration to perform a "mvn install" 
+
+How do I use the maven clean phase?
+========================================================================
+
+mvm clean
+
+
+How do I generate basic documentation for a project using maven site?
+========================================================================
+
+mvn clean site
+
+
+
+How do I create a web application project using maven?
+===========================================================
+
+mvn archetype:create 
+ -DarchetypeGroupId=org.apache.maven.archetypes 
+ -DarchetypeArtifactId=maven-archetype-webapp 
+ -DarchetypeVersion=1.0 
+ -DgroupId=com.maventest 
+ -DartifactId=mywebtest 
+ -Dversion=1.0-SNAPSHOT
+
+
+in Eclipse
+External Tool Configuration
+
+Name:			mvn archetype~create webapp
+Location:		C:\dev\apache-maven-2.0.8\bin\mvn.bat
+Working Directory:	${workspace_loc}
+Arguments:		archetype:create -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.0 -DgroupId=${string_prompt:groupId} -DartifactId=${string_prompt:artifactId}
+
+
+
+How do I update my classpath with an Eclipse User Library via the maven eclipse plugin?
+================================================================================================
+if I execute the eclipse:eclipse goal on my project, it will update the project's classpathW to include the Tomcat user library.
+
+
+<build>
+		<finalName>mywebapp</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-eclipse-plugin</artifactId>
+				<inherited>true</inherited>
+				<configuration>
+					<classpathContainers>
+						<classpathContainer>org.eclipse.jdt.launching.JRE_CONTAINER</classpathContainer>
+						<classpathContainer>org.eclipse.jdt.USER_LIBRARY/TOMCAT_6.0.14_LIBRARY</classpathContainer>
+					</classpathContainers>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+
+How do I run a maven web application in Tomcat from Eclipse?
+================================================================
+
+add a Context entry to my Tomcat's server.xml file for the "mywebapp" project.
+In Eclipse, I have a "_stuff" project that contains a link to my Tomcat's server.xml file for convenience. 
+So, I'll double-click the server.xml link to open up the server.xml file in Eclipse's XMLW editor.
+
+I'll add the following Context element to my Tomcat server.xml file. 
+
+<Context docBase="C:\dev\workspace\mywebapp\src\main\webapp" path="/mywebapp" reloadable="true"/>
+
+Now, I'll create an EclipseSW Debug Configuration to start up my project in TomcatSW. I named the Debug Configuration "mywebapp tomcat".
+
+I specified the project to be "mywebapp". The Tomcat main class from the bootstrap.jar file is "org.apache.catalina.startup.Bootstrap".
+
+On the Arguments tab, I specified the working directory to be my Tomcat home directory, which for me is C:\dev\apache-tomcat-6.0.14.
+
+I clicked the Debug button to start up my project in Tomcat via Eclipse.
+
+I went to a web browser and attempted to hit my "mywebapp" web application via http://localhost:8080/mywebapp. It worked!’
+
+
+How do I package a basic maven web application?
+=================================================
+
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>servlet-api</artifactId>
+		<version>2.5</version>
+		<scope>provided</scope>
+	</dependency>
+
+mvn package
+
+
+
+How do I deploy a maven web application to Tomcat?
+======================================================
+mvn tomcat:deploy
+
+tomcat-users.xml
+
+<?xml version='1.0' encoding='utf-8'?>
+<tomcat-users>
+  <role rolename="manager"/>
+  <user username="test" password="test" roles="manager"/>
+</tomcat-users>
+
+
+In my settings.xml file
+
+<server>
+        <id>mytomcat</id>
+        <username>test</username>
+        <password>test</password>
+</server>
+
+
+Next, I added a tomcat-maven-plugin entry to the "mywebapp" project's pom.xml. 
+
+<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>tomcat-maven-plugin</artifactId>
+				<configuration>
+					<url>http://192.168.1.7:8080/manager</url>
+					<server>mytomcat</server>
+					<path>/mywebapp</path>
+				</configuration>
+			</plugin>
+
+
+External tool configuration
+tomcat:deploy
+
+Name:			mvn clean tomcat~deploy
+Location:		C:\dev\apache-maven-2.0.8\bin\mvn.bat
+Working Directory:	${project_loc}
+Arguments:		clean tomcat:deploy
+
+
+How do I redeploy a maven web application to Tomcat?
+========================================================
+
+mvn clean tomcat:undeploy tomcat:deploy
+
+Name:			vn clean tomcat~undeploy tomcat~deploy
+Location:		C:\dev\apache-maven-2.0.8\bin\mvn.bat
+Working Directory:	${project_loc}
+Arguments:		clean tomcat:undeploy tomcat:deploy
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>tomcat-maven-plugin</artifactId>
+				<configuration>
+					<url>http://192.168.1.7:8080/manager</url>
+					<server>mytomcat</server>
+					<path>/mywebapp</path>
+				</configuration>
+			</plugin>
+
+
+
+
+
+External Tool Configuration
+=============================
+
+clean
+clean install
+clean package install
+clean package site
+clean test
+eclipse:eclipse
+
+
+
+
 Step by step ---  Eclipse Maven Tomcat deployment
 -------------------------------------------------
 
 1. Import Maven Project
 2. Right click the projct -->  Maven --> Run Configuration --> tomcat:run
 3. http://localhost:8080/<appname>
+
+========================================================================
+
+
+
+Workspace
+
+Design Pattern
+Spring 
+JSF
+Core JAVA
+
  
+====================================================
+
+Exercise
+
+1. Copy Code in Eclipse Project Explorer as project   -- 	Completed
+2. Try Scrap Book 			-- 			Completed
+3. Maven Web project in Eclipse 		--  		Completed
+
+Import
+Run as" -> "Maven build..
+Goals: package
+
+4. Integrate Maven -- with Eclipse Via External Tool Configuration 
+
+
  
 
 ========================================================
@@ -37,6 +309,202 @@ File -> New -> Other -> Java -> Java Run/Debug -> Scrapbook page.
 Right Click -->  Inspect, Display, Execute 
 
 ===========================================================================
+
+
+Assign the result of a method to a new Local Variable --
+
+================================================================================
+
+Code Template -- For Each
+
+Eclipse -- Windows -- Preference -- Template 
+
+try
+while
+
+
+===========================================================================
+
+Save Actions
+
+Let Eclipse handle boring tasks for you each time you are saving your code 
+
+- Format Source Code 
+- Organize imports
+
+Java Editor -- Save Action
+
+  
+===========================================================================
+
+Mulitiple Workspace
+
+
+Show workspace Location in the TitleBar
+
+eclipse.ini
+ (-showLocation)
+
+eclipse.exe properties > Shortcut > Target > append -showLocation - at the end
+
+- - - - - -
+
+Show workspace Name in the Title bar
+
+(Window > preferences > General > Workspace )
+
+default workspaces - (-data workspacePath) 
+
+
+Window > Preferences > Java > Appearance > Abbreviate package names
+
+==========================================================
+
+Quick Outline > Ctrl + O
+
+==========================================================
+
+In Place Outline:  
+
+In-place Outline: To pop up an in-place outline of the element at the current cursor position. + Ctrl F3 
+
+
+==========================================================
+
+Java -- Editor - Breadcrumb
+
+==========================================================
+
+use JavaStackTraceConsole
+
+Copy the stack trace from log file and click 
+
+Navigate > Open from Clipboard
+
+Clicking on the exception name in stack trace will create an exception breakpoint. 
+Clicking on the hyperlinks for Java Class Names wight line numbers to navigate. 
+
+==========================================================
+Paste Code on Package Explorer
+- A new Java Project will be created and the file will be opened in the java editor
+
+==========================================================
+
+Window > Preferences > Java > Editor > Templates OR Templates view 
+
+Default Templates
+
+
+
+
+==========================================================
+
+Block Selection
+
+==========================================================
+Split Editor -- 
+
+Ctrl -
+Ctrl {
+
+
+==========================================================
+Dont type too much yourself  > Let Eclipse help you with quick fixes, 
+
+quick assists, refactorings, content assist and more. 
+
+==========================================================
+
+Types of Breakpoints
+
+Line Breakpoint
+Conditional Breakpoint
+Exception Breakpoint 
+
+Class Breakpoint
+WatchPoint
+Method Breakpoint
+
+
+==========================================================
+
+Eclipse: Convert String Concat to StringBuilder
+
+==========================================================
+
+Integrate Maven with Eclipse via External Tool Configuration
+
+RUN > External Tool > External Tool Configuration  
+
+
+During Eclipse development, it’s not practical to go outside of the Eclipse’s environment and execute Maven command in external console.
+
+In this article, we show you how to integrate Maven command with Eclipse IDE, via Eclipse’s “External Tool Configuration“. Normally, this external tool is used to run external command within Eclipse environment, and it works prefectly with Maven command.
+
+
+m2eclipse
+Alternatively, you can install “m2eclipse Eclipse plugin“, which provides complete Maven integration for Eclipse IDE.
+
+But, i do not like the plugin, because, Maven syntax comes with complete XSD support, and “External Tool Configuration” is work pretty well for me, just do not see any obvious benefits of installing this m2eclipse plugin.
+==========================================================
+
+Fix for Eclipse maven dependency error 
+
+Windows > Preference > Java > Java — Build Path > class variable > 
+M2_REPO
+
+External Tool configuration
+RUN > External Tool > External Tool Configuration  
+Name:			mvn eclipse~eclipse
+Location:		C:\dev\apache-maven-2.0.8\bin\mvn.bat
+Working Directory:	${project_loc}
+Arguments:		eclipse:eclipse
+
+mvn eclipse:eclipse
+
+
+==============================================================================
+
+How do I open a browser window via Eclipse?
+=============================================
+
+External Tools
+Program - New - 
+
+IE - Google
+Browse File System
+
+C:\Program Files\nternet Explorer\iexplore.exe
+
+Arguments:
+http://www.google.com
+
+
+http://localhost:8080/${project_name}/index.html
+
+
+
+http://www.avajava.com/tutorials/lessons/how-do-i-open-a-browser-window-via-eclipse.html
+
+==============================================================================
+
+How do I open a Windows Explorer window via Eclipse?
+====================================================
+
+Easy Explore plug-in,
+which can be downloaded from http://easystruts.sourceforge.net/.
+
+External Tool configuration
+
+Open in Explorer Window
+C:\WINDOWS\explorer.exe
+${resource_loc}
+
+
+http://www.avajava.com/tutorials/lessons/how-do-i-open-a-windows-explorer-window-via-eclipse.html?page=2
+
+================================================================================================
+
 
 
 

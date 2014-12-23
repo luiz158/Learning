@@ -32,4 +32,9 @@ http://www.lagerweij.com/2011/05/28/code-cleaning-a-refactoring-example-in-50-ea
 
 1. Master Eclipse 
 2. Work projects from Github
-3. D 
+3. Eclipse —> Starting point 
+	> Start Tomcat from Eclipse
+	> Stop Tomcat from Eclipse
+	> Import Project from Eclipse
+	> Deploy - Redploy from Eclipse
+	>  

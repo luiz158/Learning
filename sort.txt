@@ -1,0 +1,64 @@
+
+
+1. sort simply sorts the file in alphabetical order:
+$ sort file
+
+
+2. sort removes the duplicates using the -u option:
+$ sort -u file
+
+
+3. The default sort 'might' give incorrect result on a file containing numbers:
+$ sort file
+
+
+4. To sort a file numericallly:
+$ sort -n file
+
+
+
+5. sort file numerically in reverse order:
+$ sort -nr file
+
+6. sort can sort multiple files as well.
+$ sort -n file1 file2
+
+
+7. Sort, merge and remove duplicates:
+$ sort -nu file1 file2
+
+
+
+$ cat file
+Linux,20
+Unix,30
+AIX,25
+Linux,25
+
+9. sort file on the basis of 1st field:
+$ sort -t"," -k1,1 file
+
+10. sorting file on the basis of the 2nd field:
+$ sort -t"," -k2,2 file
+
+
+11. sorting file on the basis of 2nd field , numerically:
+$ sort -t"," -k2n,2 file
+
+
+12. Remove duplicates from the file based on 1st field:
+$ sort -t"," -k1,1 -u file
+
+
+13. Sort the file numerically on the 2nd field in reverse order:
+$ sort -t"," -k2nr,2 file
+
+
+14. sort the file alphabetically on the 1st field, numerically on the 2nd field:
+$ sort -t"," -k1,1 -k2n,2 file
+
+
+15. sort a file based on the 1st and 2nd field, and numerically on 3rd field on  a file containing 5 columns:
+$ sort -t"," -k1,2 -k3n,3 file 
+
+

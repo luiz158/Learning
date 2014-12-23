@@ -1,5 +1,33 @@
 
 
-Sindhu - Oct 1 - 1988
+
+SED - 
+
+
+1. Delete the 1st line or the header line:
+2. Delete a particular line.
+3. Delete the last line or the trailer line of the file.
+4. Delete a range of lines.
+5. Delete lines other than the specified range,
+6. Delete the first line AND the last line of a file
+7. Delete all lines beginning with a particular character, 'L' 
+8. Delete all lines ending with a particular character, 'x' in this case: 
+9. Delete all lines ending with either x or X,  
+10. Delete all blank lines in the file
+11. Delete all lines which are empty or which contains just some blank spaces:
+12. Delete all lines which are entirely in capital letters
+13. Delete the lines containing the pattern 'Unix'.
+14. Delete the lines NOT containing the pattern 'Unix'
+15. Delete the lines containing the pattern 'Unix' OR 'Linux'
+16. Delete the lines starting from the 1st line till encountering the pattern 'Linux
+17. Delete the lines starting from the pattern 'Linux' till the last line 
+18. Delete the last line ONLY if it contains the pattern 'AIX': 
+19. Delete the last line ONLY if it contains either the pattern 'AIX' or 'HPUX':
+20. Delete the lines containing the pattern 'Solaris' only if it is present in the lines from 1 to 4.
+21. Delete the line containing the pattern 'Unix' and also the next line:
+22. Delete only the next line containing the pattern 'Unix', not the very line:
+23. Delete the line containing the pattern 'Linux', also the line before the pattern: - 
+24. Delete only the line prior to the line containing the pattern  'Linux', not the very line: - 
+25. Delete the line containing the pattern 'Linux', the line before, the line after: -
 
 

@@ -21,6 +21,13 @@ www.javabeat.net
 
 
 
+https://github.com/kolorobot/unit-testing-demo
+http://www.javacodegeeks.com/2014/12/do-you-really-understand-sqls-group-by-and-having-clauses.html
+
+http://www.javacodegeeks.com/2014/12/7-brain-tips-for-software-developers.html
+
+http://www.lagerweij.com/2011/05/28/code-cleaning-a-refactoring-example-in-50-easy-steps/
+
 
 
 1. Master Eclipse 

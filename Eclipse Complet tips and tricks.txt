@@ -506,5 +506,21 @@ http://www.avajava.com/tutorials/lessons/how-do-i-open-a-windows-explorer-window
 ================================================================================================
 
 
+Eclipse Top PLugins
+
+Eclipse Json Editor Plugin  - http://sourceforge.net/projects/eclipsejsonedit/
+
+=================================================================================================
+
+Adding 'Show in Windows Explorer' to Eclipse
+
+Give the configuration a name
+Working Directory —    ${env_var:SystemRoot}\explorer.exe
+Arguments   —          /select,${resource_loc}
+
+
+===========================================================================
+
+
 
 

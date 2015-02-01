@@ -6,6 +6,24 @@ KEY WORDS
 COPY CODE
 SCRAP Book
 External Tool Configuration
+BREAKPOINT - Types
+TEMPLATES 
+CODE ASSIST / QUICK ASSIST / CONTENT ASSIST / 
+REFACTORING
+SAVE ACTION
+STEP - FILTERING (debugging)
+eclipse.ini
+SNIPPET View
+Github - Eclipse Templates 
+
+
+
+Ctrl + F3
+Ctrl + O
+F4
+
+
+
 
 
 Use External Tool Configuration > to run maven commands (no need m2e maven plugin)
@@ -14,6 +32,8 @@ MAVEN —>  local repository >>  setting.xml (maven installation)
 		/Users/saravanan/.m2/repository
 
 
+
+CODEMANSHIP - Youtube - Refactoring in eclipse
 
 
 
@@ -592,6 +612,47 @@ Open Firefox
 -a Firefox.app http://localhost:8080/
 
 
+========================================================================================================
+
+
+TEMPLATES - For faster coding
+
+
+sys  — ctrl + space
+
+http://fahdshariff.blogspot.in/2011/08/useful-eclipse-templates-for-faster.html
+https://github.com/sharfah/dotfiles/blob/master/.eclipse/templates.xml
+>
+if
+for
+strf
+sysf
+static final field
+readfile
+writefile
+parsexml
+Logger
+logd
+logi
+logerr
+logthrow
+Junit - before
+after
+beforeclass
+afterclass
+
+http://stackoverflow.com/questions/1028858/useful-eclipse-java-code-templates
+http://eclipse.dzone.com/news/effective-eclipse-custom-templ
+https://github.com/simcap/templates/blob/master/useful-eclipse-templates.xml
+
+http://www.eclipseonetips.com/2009/11/26/kill-the-code-zombies-with-editor-templates/
+http://sevennet.org/2014/11/24/how-to-useful-eclipse-java-code-templates/
+
+http://www.ffbit.com/blog/2012/10/22/eclipse-junit-4-code-templates/
+
+WRITE Templates for JSF
+
+======================================================================================================
 
 
 

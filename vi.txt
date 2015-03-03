@@ -3,3 +3,74 @@
 Sindhu - Oct 1 - 1988
 
 
+Vi Editor 
+
+vi filename (new file name)
+vi +90 filename
+vi /etc/sysconfig/network-script    
+
+
+:q  --->  Quit 
+
+:q!  --->  Quit 
+ 
+
+3 Modes 
+========
+
+Command Mode
+iNsert Mode
+
+
+Command Mode ------ important Commands
+
+dd - For Deleting
+yy - For Copying
+p - For Pasting.
+
+:r filename - For Reading Text from another file.
+
+/search-text - For Searching top to bottom
+
+?search-text - For Searching bottom to top
+
+n - For following the search text top to bottom
+
+N - For following the search text top to bottom
+
+0 or o - For a new line above or below the current line. 
+
+r - For Replacing the text under curser.  
+
+u - UNDO 
+
+
+3dd    -      Delete 3 lines
+
+3yy    -      Copy 3 lines
+
+p      -      Paste 
+
+$      -      Reach  end of the line
+
+^      -      Beginning of the line
+
+:1     -      For the First Line
+
+G      -      For the last line of the file.
+
+:n     -      For nth Line Number 
+
+:wq    -      Save and close the file
+
+.      -      Repeat the command
+
+:! ls -ltr 
+
+:%s/abc/xyz/g
+
+:sp    -  Split horizontally 
+
+:vsp   -  Split Veritically
+
+

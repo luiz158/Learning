@@ -1,3 +1,11 @@
 
 
-1. Navigation 
+1. Navigation Shortcut.
+2. Extract Method - Shortcut.
+3. Method - 5 lines 
+4. No Magic No in for loop
+5. 
+
+
+
+

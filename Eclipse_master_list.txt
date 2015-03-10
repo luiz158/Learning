@@ -1,10 +1,37 @@
 
 
 1. Navigation Shortcut.
-2. Extract Method - Shortcut.
+2. Extract Method - Shortcut.  Alt + Shift + M
 3. Method - 5 lines 
 4. No Magic No in for loop
-5. 
+5. Comment ——> Extract Method
+6. Complicated Logic ——>  Extract Method
+7. if condition —>  extract Method 
+8. if Logic     ->  extract Method
+8. 
+
+
+
+
+==========
+
+
+if(totalDashTimes / totalDashes > 4.41) {
+	System.out.println("Average Time");
+}
+
+
+// Better solution
+
+if(avgDashTime() > 4.41) {
+	System.out.println("Average Time");
+}
+
+double avgDashTime(){
+	return totalDashTimes / totalDashes;
+}
+
+
 
 
 

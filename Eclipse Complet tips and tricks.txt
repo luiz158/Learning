@@ -654,6 +654,27 @@ WRITE Templates for JSF
 
 ======================================================================================================
 
+ECLiPSE 
+
+ALWAYS USE SAVE ACTONS  
+—  Removes unused variable , imports,  Keeps code clean
+
+ALT + SHFT + R
+-	Rename Variable , Rename Class,  make Meaning FULL NAMES.
+
+ALT + SHiFT + M 
+-	EXTRACT Method  —  Smaller method, easy to test, 
+
+
+EXTRACT Local Variable 
+EXTRACT CONSTANT
+
+Perspective ——>   Java Browsing           *********
+Perspective ——>   Java Type Hiererachy    *********
+
+ 
+
+
 
 
 

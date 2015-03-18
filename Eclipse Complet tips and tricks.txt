@@ -15,7 +15,7 @@ STEP - FILTERING (debugging)
 eclipse.ini
 SNIPPET View
 Github - Eclipse Templates 
-
+ECLPSE - UMLLet   
 
 
 Ctrl + F3

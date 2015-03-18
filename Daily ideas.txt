@@ -28,6 +28,25 @@ PF No				-
 
 ============================================================
 
+LEARN     	---- Unix programming from Existing Project  [Practice in MAC]
+LEARN		---- PLSQL Programming from existing Project []
+
+PYTHON  ---- BASIC s in GITHUB  (upload in learning) 
+PERL	---- BASIC s in GITHUB  (upload in learning) 
+Unix    ---- BASIC s in GITHUB  (upload in learning) 
+PLSQL   ---- BASIC s in GITHUB  (upload in learning) 
+SQL     ---- BASIC s in GITHUB  (upload in learning) 
+EXCEL fn---- BASIC s in GITHUB  (upload in learning) 
+AWK	---- BASIC s in GITHUB  (upload in learning) 
+BASH	---- BASIC s in GITHUB  (upload in learning) 
+VI	---- BASIC s in GITHUB  (upload in learning) 
+
+
+JSTL	---- BASIC s in GITHUB  (upload in learning) 
+JAXWS	---- BASIC s in GITHUB  (upload in learning) 
+
+
+JAVA PROJECT in Eclipse ---- BASIC s in GITHUB  (upload in learning) 
 
 
 

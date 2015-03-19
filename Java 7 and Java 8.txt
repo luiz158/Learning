@@ -1,0 +1,10 @@
+
+
+Automatic resource management with try-with-resources in java 7
+	http://howtodoinjava.com/2013/07/17/automatic-resource-management-with-try-with-resources-in-java-7/
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+
+
+JAVA Best Practices
+	http://howtodoinjava.com/java-best-practices/
+
+8 signs of bad unit test cases
+	http://howtodoinjava.com/2013/06/10/8-signs-of-bad-unit-test-cases/
+
+Unit testing best practices : Junit Reference guide
+	http://howtodoinjava.com/2012/11/05/unit-testing-best-practices-junit-reference-guide/
+
+Best practices for Exception handling
+	http://howtodoinjava.com/2012/11/05/best-practices-for-for-exception-handling/
+
+
+Java exception handling best practices
+	http://howtodoinjava.com/2013/04/04/java-exception-handling-best-practices/
+
+Java executor framework tutorial and best practices
+	http://howtodoinjava.com/2013/03/12/java-executor-framework-tutorial-and-best-practices/
+
+5 Reasons You Should Consider Migrating Your Legacy Systems
+	http://howtodoinjava.com/2013/08/28/5-reasons-you-should-consider-migrating-your-legacy-systems/
+
+13 best practices for writing spring configuration files
+	http://howtodoinjava.com/2014/01/05/13-best-practices-for-writing-spring-configuration-files/
+
+How to generate secure password hash : MD5, SHA, PBKDF2, BCrypt examples
+	http://howtodoinjava.com/2013/07/22/how-to-generate-secure-password-hash-md5-sha-pbkdf2-bcrypt-examples/
+
+How to make a java class immutable
+	http://howtodoinjava.com/2012/10/28/how-to-make-a-java-class-immutable/
+
+How to reload log4j levels on runtime
+	http://howtodoinjava.com/2013/05/28/how-to-reload-log4j-levels-on-runtime/
+
+How to override toString() effectively with ToStringBuilder
+	http://howtodoinjava.com/2013/06/03/how-to-override-tostring-effectively-with-tostringbuilder/
+
+Always use length() instead of equals() to check empty string in java
+	http://howtodoinjava.com/2013/03/31/always-use-length-instead-of-equals-to-check-empty-string-in-java/
+
+
+Performance comparison of different for loops in java
+	http://howtodoinjava.com/2013/03/26/performance-comparison-of-different-for-loops-in-java/
+
+
+Performance comparison of different ways to iterate over HashMap
+	http://howtodoinjava.com/2013/04/01/performance-comparison-of-different-ways-to-iterate-over-hashmap/
+
+Use array instead of Vector.elementAt() inside any loop for better performance
+	http://howtodoinjava.com/2013/04/02/use-array-instead-of-vector-elementat-inside-any-loop-for-better-performance/
+

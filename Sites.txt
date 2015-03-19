@@ -29,6 +29,7 @@ www.javased.com
 www.topjavablogs.com
 www.refactoringideas.com
 www.gontu.org/  []
+http://javapapers.com
 
 
 http://portal.acttv.in/web/chn/home
@@ -47,7 +48,7 @@ http://www.javacodegeeks.com/tutorials/java-tutorials/core-java-tutorials/?utm_c
 
 
 
-
+http://www.briantracy.com/blog/personal-success/10-must-read-articles-you-may-have-missed/?cmpid=2183&proid=6631
 
 
 

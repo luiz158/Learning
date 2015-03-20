@@ -3,3 +3,22 @@
 Sindhu - Oct 1 - 1988
 
 
+=======================================
+
+
+Sort by Color
+	http://www.excel-easy.com/examples/sort-by-color.html
+
+Filter by Number  [Greater than, lesser than, between, not equal to, Top 10]
+	http://www.excel-easy.com/examples/number-text-filters.html
+
+Text Filter  ------  Equals, begins with, Ends with, Contains,  
+	http://www.excel-easy.com/examples/number-text-filters.html
+
+DATE FILTER 
+	http://www.excel-easy.com/examples/date-filters.html
+
+
+
+
+

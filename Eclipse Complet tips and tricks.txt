@@ -22,9 +22,71 @@ Ctrl + F3
 Ctrl + O
 F4
 
+================================================================
+
+Navigation
+===========
+
+Open Any Resource				————-	Control + Shift + R
+Navigate to already Openeded Editor		————- 	Control + E
+Navigate to method in a class (outline) 	Control + O
+Jump to Method, Class, Parameter Declaration	F3
+Outline of Another class with out Navigation	F4
+
+Question:
+Open Any File
+Navigate to method inside class
+Outline of opened class
+outline of other class
+ Jump to class definition
+Jump to Method Definition
+Jump to Variable Declaration
+View All Opened Files
+Go to Last Edit
+Go to Line No
+Go to Next Error
+
+Meaningful Variable
+Complicated Method
+To remove Comments
+
+
+Code Generation
+==================
+
+Go For Template
+Go For Code Assist
+
+
+Repeated Action
+================
 
 
 
+Debugging
+==========
+Eclipse 
+
+Double Click    ====> Toggle Breakpoint
+Right Click Class	====>	Debug As  ====>  Java Application
+F5, F6, F7, F8 
+
+Breakpoint View 	———>  	Remove one or more Breakpoints
+Breakpoint View 	———>	Skip All Break points
+Breakpoint View 	———>	Add Java Exception Breakpoint
+Variables View 		———>	drop down menu to display static variables, constants
+Variables View		———>	Change the value at runtime
+Variables View		———>	right click on the corresponding variable and select the new Detail Formatter
+Watchpoint by 		———>	double-clicking on the left margin, next to the field declaration. 
+Watchpoint		———>	Suspend on Field Acccess, Field Modification. 
+
+
+
+
+
+
+
+======================================================================
 
 Use External Tool Configuration > to run maven commands (no need m2e maven plugin)
 use mvn eclipse:eclipse to Fix Maven dependency error in eclipse

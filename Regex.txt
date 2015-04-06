@@ -5,4 +5,44 @@ Java Regular Expression Tutorial
 
 
 
+? 0 or 1 repetitions
+* 0 or more repetitions
 
+
+\$\d*\.\d{2}   -- $100.00
+
+\e Escape
+\f Form Feed
+\n Newline
+\r Carriage Return
+\t tab
+
+\d{3}    	3 Digit 
+\d{1,5}		1 to 5 Digit
+
+Calendar Calendar 
+calend[ae]r
+
+[a-z]   abcdedfghijklmnopqrstuvwxys
+[0-9]	0123456789
+
+\d 	Represent any number
+\D 	Represents anything but a number
+\s	Represents any space
+\S	Anything but a space
+\w	Any charater
+\W 	Anything but a Charater
+
+
+123 Main St.
+\d{1,5}
+\s
+\w+
+\s
+\w+
+\.
+ 
+
+=============================================================================
+
+'(Jenn)’

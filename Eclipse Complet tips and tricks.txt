@@ -82,7 +82,57 @@ Watchpoint		———>	Suspend on Field Acccess, Field Modification.
 
 
 
+========================================================================
 
+Eclipse One time Set up
+
+1. Server - tomcat
+2. Maven
+3. Eclipse
+4. Maven Plugin
+5. tomcat plugin
+6. templates - Eclipse configuration
+7. Create - Eclipse project with _____.  Save all Eclipse tips.
+	Update in github.
+	Conditional breakpoint. 
+8. External tool Configuration.
+9. Content Assist  — on typing. Preferences - Java - Editor — Content Assist. Auto Activation  Delay - 40. 
+10. Install - Findug - through Help —> Market place or b drag and drop from Browser.
+11. Install - Eclipse PMD
+12. Install - ExploreFS or StartExlorer
+13. Install - Jar2UML
+14. Fast Writing Code - Using Eclipse 
+15. Install - UML Designer
+16. Eclipse - Check Style Plugin
+17. Install - ECLEmma
+18. Install - SpringIDE
+19. Add Comments in the Java Class. (Eclipse tips - Run program. Last run - Last External run).
+
+
+ 
+
+===========
+Eclipse Plugin
+(http://www.javacodegeeks.com/2012/05/top-10-most-popular-new-eclipse-plugins.html)
+https://marketplace.eclipse.org/favorites/top?page=6
+
+MAC — Installed Plugin
+
+>ObjectAid UML Explorer  — 
+>Findbugs
+>Checkstyle 
+>MoreUnit
+>PMD
+>MouseFeed
+>EditBox
+>nWire
+>UMLet
+
+
+>SpringIDE (http://springide.org/updatesite)  — Pending
+>MavenIDE (http://mevenide.codehaus.org/release/eclipse/update)  -  Pending
+
+http://editbox.sourceforge.net/updates/#sthash.IvuB1mav.dpuf
 
 
 

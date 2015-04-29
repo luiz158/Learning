@@ -109,6 +109,47 @@ Eclipse One time Set up
 19. Add Comments in the Java Class. (Eclipse tips - Run program. Last run - Last External run).
 
 
+
+http://www.comscigate.com/debug/learn_Debug.htm   (**********)
+http://www.comscigate.com/junit/learn_JUnit.htm
+https://www.youtube.com/playlist?list=PLUGinutrSzN-ALgaL0mSyPDHi3VhUCcuV
+http://eclipsetutorial.sourceforge.net/Total_Beginner_Companion_Document.pdf
+http://users.ece.utexas.edu/~miryung/teaching/EE461L-Spring2012/labs/debugging.html
+http://www.vogella.com/tutorials/EclipseDebugging/article.html#advanced
+http://www.cavdar.net/2008/09/13/5-tips-for-debugging-java-code-in-eclipse/
+http://www.vogella.com/tutorials/EclipseDebugging/article.html
+
+
+Refactoring  (Effective use of eclpse)
+===========
+
+http://tkramar.blogspot.in/2007/10/effective-eclipse-i-setup.html
+http://tkramar.blogspot.in/search/label/eclipse
+http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fref-menu-refactor.htm
+
+https://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/junit.shtml
+
+
+http://www.codejava.net/ides/eclipse/8-eclipse-shortcut-keys-for-code-refactoring
+http://www.codejava.net/ides/eclipse/25-eclipse-shortcut-keys-for-code-editing
+http://www.codejava.net/ides/eclipse/16-eclipse-shortcut-keys-for-workspace-and-project
+
+http://www.codejava.net/servers/tomcat
+http://www.vogella.com/tutorials/Eclipse/article.html
+http://www.vogella.com/tutorials/Eclipse/article.html
+http://www.summa-tech.com/blog/2009/05/19/top-10-not-so-popular-eclipse-shortcuts
+
+http://www.javacodegeeks.com/2012/10/eclipse-refactoring-on-steroids.html
+
+http://veerasundar.com/blog/2009/10/eclipse-tip-how-to-use-scrapbook-pages-in-eclipse/
+https://sourcemaking.com/refactoring/remove-assignments-to-parameters
+
+
+
+
+
+
+
  
 
 ===========
@@ -134,6 +175,8 @@ MAC — Installed Plugin
 
 http://editbox.sourceforge.net/updates/#sthash.IvuB1mav.dpuf
 
+
+Debugging ====>  Move to Line ——>  Ctrl + R
 
 
 ======================================================================
